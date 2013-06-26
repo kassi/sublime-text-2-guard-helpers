@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "Rspec: Open Failures",
+    "command": "rspec_open_failures"
+  }
+]
