@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "Guard: Open Failing Tests",
+    "command": "guard_open_failing_tests"
+  }
+]

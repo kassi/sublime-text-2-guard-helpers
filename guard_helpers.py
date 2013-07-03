@@ -41,7 +41,7 @@ def rails_root(directory):
 
     return retval
 
-class RspecOpenFailuresCommand(sublime_plugin.WindowCommand):
+class GuardOpenFailingTestsCommand(sublime_plugin.WindowCommand):
     def run(self):
         # get rails root
         # open tmp/rspec_guard_result

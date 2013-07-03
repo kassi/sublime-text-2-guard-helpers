@@ -1,20 +1,21 @@
-# RspecHelpers
+# GuardHelpers
 
-Commands for daily use of rspec.
+Commands for daily use of guard.
 
 ## Prerequisites
 
-You need to have a rails app set up to use `rspec` and `guard`.
+You need to have a rails app set up to use `guard`.
+The current implementation works only with `rspec` results.
 
 ## Installation
 
-You have 3 options for installing RspecHelpers Plugin: using Package Control, using Git, or just downloading it.
+You have 3 options for installing GuardHelpers Plugin: using Package Control, using Git, or just downloading it.
 
 ### Package Control
 
 Inside Sublime Text 2, open your command pallete (⌘ + ⇧ + P on OS X), and select "Package Control: Install Package".
 
-After this, search for "rspechelpers" and install it!
+After this, search for "GuardHelpers" and install it!
 
 ### Git
 
@@ -41,7 +42,7 @@ Open your terminal application and go to your Packages directory, whose location
 After this, you just need to clone this repository:
 
 ```shell
-git clone git://github.com/kassi/sublime-text-2-rspec-helpers.git RspecHelpers
+git clone git://github.com/kassi/sublime-text-2-guard-helpers.git GuardHelpers
 ```
 
 ### Download
@@ -52,9 +53,9 @@ Then unzip the file and move the resulting folder to your Packages directory.
 
 ## Usage
 
-### rspec-open-failure
+### guard_open_failing_tests
 
-After rspec encountered a failing test, run the command `Rspec: Open Failures` from your command pallete (⌘ + ⇧ + P on OS X).
+After your `guard` running `rspec` specs encountered a failing spec, run the command `Guard: Open Failing Tests` from your command pallete (⌘ + ⇧ + P on OS X).
 
 Select the failure from the list.
 
